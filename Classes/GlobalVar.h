@@ -2,7 +2,7 @@
 //  GlobalVar.h
 //  Test_1
 //
-//  Created by Александр Брославский on 28.01.2022.
+//  Created by Александр Брославский on 30.01.2022.
 //
 
 #ifndef __GLOBAL_VAR_H__

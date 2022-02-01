@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/metal/ProgramMTL.mm \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/metal/ProgramMTL.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/metal/../Program.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/metal/../Macros.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/base/CCRef.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/platform/CCPlatformMacros.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/base/ccConfig.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/platform/CCPlatformConfig.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/platform/CCPlatformDefine.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/platform/mac/CCPlatformDefine-mac.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/metal/../Types.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/metal/../ShaderCache.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/ShaderModule.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/metal/ShaderModuleMTL.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/metal/../ShaderModule.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/base/ccMacros.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/base/CCConsole.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/platform/CCStdC.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/platform/mac/CCStdC-mac.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/base/ccRandom.h

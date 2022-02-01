@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/ShaderCache.cpp \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/ShaderCache.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/Macros.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/base/CCRef.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/platform/CCPlatformMacros.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/base/ccConfig.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/platform/CCPlatformConfig.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/platform/CCPlatformDefine.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/platform/mac/CCPlatformDefine-mac.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/ShaderModule.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/Types.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/Device.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/RenderPipelineDescriptor.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/VertexLayout.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/ProgramState.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/base/CCEventListenerCustom.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/base/CCEventListener.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/Program.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/RenderPassDescriptor.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/Texture.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/DepthStencilState.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/ProgramCache.h \
+  /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/cocos/renderer/backend/DeviceInfo.h

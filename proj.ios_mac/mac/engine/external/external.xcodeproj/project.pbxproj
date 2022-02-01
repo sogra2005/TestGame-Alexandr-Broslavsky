@@ -1,0 +1,2792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		36092F6CAD474706BC18135D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 06A8FA73EDFE4F2FB28A1E9B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D98B4BC285FB70481A2E64EB /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				6AC3E4A9ADA94D2F95A95E2A /* PBXTargetDependency */,
+				0CACAA2574C7438A8D9965BF /* PBXTargetDependency */,
+				795E18E328234F618E9EEBCC /* PBXTargetDependency */,
+				AE2D2F8722D640EF977BE216 /* PBXTargetDependency */,
+				5D0B02F1E80F4E5F8DC357CB /* PBXTargetDependency */,
+				48900EFFE094441798CA6A90 /* PBXTargetDependency */,
+				FE8F2FAAF1CB4FB6A2CCDB24 /* PBXTargetDependency */,
+				7267BB31ADCD4C2E8AA9F6C3 /* PBXTargetDependency */,
+				B5D98A1F891A40408E989943 /* PBXTargetDependency */,
+				D95A0223FDAD4A66B27E632C /* PBXTargetDependency */,
+				4B65FC3E5F8749D380D3F656 /* PBXTargetDependency */,
+				40933A5DA4E24540B41547DC /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E9B0860802314C76880D284A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 767A888370A44CE6AF475C92 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				997399B3C99D027822A741F9 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0301645771DB427DB9446C66 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = 91A391CCB9434E42A07157C3 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		078826592E3A45C6B41DAB10 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = 973EFFE3E2624A2298D8C369 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/empty.cpp */; };
+		07DA287E46AD4E639EF91857 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = A55A27274F1E4A57AC3FAD36 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/fastlz/fastlz.c */; };
+		0C6E96DCA72044D8A504CC0B /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = 6FE5C7357A744E67B0645DBD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		0DDA276D78774575BDFBE64D /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = B4D340ECD585422AA97DD4BB /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		1F8957FB53E64E6881EB81E7 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = FB24D77B3B4C49069FC0B9C6 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		1FF543CB77A142B7A94DCFA4 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CCBD4573D621438EB52AB139 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/CMakeLists.txt */; };
+		2F68167BEB384C3BBA8166CF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 70DB85430D094DF0987CD47B /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		301C918F71864578B4F46FD6 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 0E01ED6FCC8944B3B7B52AFF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/md5.c */; };
+		39C8C303EFFB48D98CD57853 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 83C2702DB93E4563B815E592 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		3C236EC2627246FA9482D584 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2C17221DFFE74A02881BEB93 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/CMakeLists.txt */; };
+		3F45D7CC795F48A5A873A442 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = E52AE7A568AB4C7FA48FAC20 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/ioapi.cpp */; };
+		491A643DC3EE4A609A9B7610 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 8EC73BD3BE374D6A9BCD83E2 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		4A99BFB810184B94A7B98ABD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C4490CEB13CB466FB38364B5 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/CMakeLists.txt */; };
+		4EC5791055304D03A5A25392 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 373EF88281E24D92BB0FE5B2 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		506863F6BD1043759AB13287 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = 3D0DDD10B14942A9A2097D67 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		52954E7C6F63428098F6BE62 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 6CD9E9CEF858499B83D9BFA0 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		5CDB69147B15466BBE781734 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = EC00309E86444667A04CEC34 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		75910C0CB6D848B3AE7780D2 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B246BDFC77444F0094341DBB /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+		7E0D98AB170647E98BF0D71D /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 82A45F16D3A8494595874D35 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		8113DBD98DED43D8B646F722 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 3BACB11BEE454E9CBD3124BA /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/xxtea.cpp */; };
+		8137E052E6DC45BF997BC482 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 49E21169E39240578450221C /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/CMakeLists.txt */; };
+		85816D7D0792443ABA5FA178 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = 2CE140468D214F8090A13595 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/unzip.cpp */; };
+		89391931FC974251BAC58BAD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = 7A5D25B2901D48CD9C6F2BAD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		92AE3D00520A46DAB768AFE1 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = B614843F76944560AEF5983E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/xxhash.c */; };
+		9B7AE5A8CE5E47A2A7FD41C5 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9659ADCAB682447A80416EC4 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		9D07CFF751F04211B89D5E65 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = 53C428F3186A493BBBBFE3C9 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		A4534DB2A5E14EA3B76E700E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 471716607193444E9E51DC7B /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		A550C3A606724DA6B1E238FD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 996911626BF94BA9A6656C4E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		AA938E5A660D48B087BFF910 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = A9BD83B152124CE8A8E6F4E7 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		B04AFEBD99874091BD18ED90 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 6E21E218BA274073B17C54EB /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/clipper.cpp */; };
+		B4A4B5BD21944F0F8C1B8872 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = F51D9EE91731495ABEED7D55 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		C08464458ADC44D4876C8546 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 29DE9BF81D744E27B10E9D48 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/CMakeLists.txt */; };
+		C09923BB874D448F92F073F3 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 83B2F0B750594DFD955A1BFF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/CMakeLists.txt */; };
+		CC490CC827814F26B0EFA3A5 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ABB87276F14B45F7AF376677 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/CMakeLists.txt */; };
+		CEF3C573DBC84209924B2C96 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 89C48C7C595942D3B1B7B90E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		CF8E400F6E7D4FB0884A2E78 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 019CCA70F1C6486F8EAF3139 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/common/shapes.cc */; };
+		D1BBDC5AB1614100835A91BF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = FFD35E859CFE474CA1457477 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		D21CFA0DB5C54F04B6E26619 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3C00C454AC20417987ED00EC /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		D5D9486A36F64EA5A7AA6017 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 1D77D2DD898641ACAC8EDB17 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		D887B4D565C34DD3B9261748 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 86EBDF777C5C4F42AC37343D /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+		DDD718DB327C4105807F396A /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = B79FAA4807ED42AEA5294A5B /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		EF84D9074B484FCCA0958CA1 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 3366E6290E31485EB819EC3D /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		F04B0EFEF9E9443083280073 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = E358160EBD574866AECD3DCD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		F210A72DB815469ABD98F26E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 6BF5CC87347D4F4688EBB5EF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/ioapi_mem.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		014C281889214C349F1295F1 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		13519D6180FD4610BFB1E965 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6BFAB392A8404F2B8B53AA55 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		DED328228584493C99C5ABD5 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		059EA1F86E394CB4B216C57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36AAC8E28744A8C9F21C933;
+			remoteInfo = ext_xxtea;
+		};
+		2018FDEFE488486B9F862F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB303F8E2424402A6D91D82;
+			remoteInfo = ext_xxhash;
+		};
+		24EF9AAB5AD6447297AEAD2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9161C7546F4E46CEBCAA0C20;
+			remoteInfo = ext_tinyxml2;
+		};
+		361F3B36FDD44F19BF9DF282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9161C7546F4E46CEBCAA0C20;
+			remoteInfo = ext_tinyxml2;
+		};
+		44E4A1450EF6472D89307F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E772D86FA6C40D28E543615;
+			remoteInfo = ext_unzip;
+		};
+		4B7060045DF6401C935346DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E75A76C718114FE383356134;
+			remoteInfo = ext_md5;
+		};
+		5A10780C786F4148A34D304B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10D0AEF08A9640339C17BEB9;
+			remoteInfo = ext_recast;
+		};
+		64533A86AFE7492C98FCB78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11E72CBDEAD84023B16ED912;
+			remoteInfo = ext_convertUTF;
+		};
+		67A86DFAE1CA440DA5FED406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D109C4B322DA492AB5927FA0;
+			remoteInfo = ext_clipper;
+		};
+		75796932FF35491EADFCB505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B0860802314C76880D284A;
+			remoteInfo = ZERO_CHECK;
+		};
+		7936A48CE25743D98BB54F5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB303F8E2424402A6D91D82;
+			remoteInfo = ext_xxhash;
+		};
+		8CFCFFCB8F4A4F90AD1510B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E75A76C718114FE383356134;
+			remoteInfo = ext_md5;
+		};
+		B106349903B94022894041E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11E72CBDEAD84023B16ED912;
+			remoteInfo = ext_convertUTF;
+		};
+		B5B5C452F1F9422181E53380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D109C4B322DA492AB5927FA0;
+			remoteInfo = ext_clipper;
+		};
+		BD7FB83EEEA2471D8DD38DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2F92FF135549DAB511ED51;
+			remoteInfo = ext_poly2tri;
+		};
+		C2FFBC4435514CEC910BEDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E772D86FA6C40D28E543615;
+			remoteInfo = ext_unzip;
+		};
+		D8765F8CFC27413781133081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E09A2533D734BA3A6B97733;
+			remoteInfo = ext_edtaa3func;
+		};
+		D9309F84F6DE42468E7412AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B0860802314C76880D284A;
+			remoteInfo = ZERO_CHECK;
+		};
+		DD916512EF2F4DEFA97777D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10D0AEF08A9640339C17BEB9;
+			remoteInfo = ext_recast;
+		};
+		E10B21D9E45B472A8A4203C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E09A2533D734BA3A6B97733;
+			remoteInfo = ext_edtaa3func;
+		};
+		EFCEE9EAFBE04062846A053D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DD1B76F52FC4145A6B53B19;
+			remoteInfo = external;
+		};
+		FB8F81D2773D460B9DDBD3D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36AAC8E28744A8C9F21C933;
+			remoteInfo = ext_xxtea;
+		};
+		FBA14BA67B3C4E78A875D10C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2F92FF135549DAB511ED51;
+			remoteInfo = ext_poly2tri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019CCA70F1C6486F8EAF3139 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		0467706FAEFF4203BD63D7D4 /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E01ED6FCC8944B3B7B52AFF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		1D77D2DD898641ACAC8EDB17 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		29DE9BF81D744E27B10E9D48 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2C17221DFFE74A02881BEB93 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2CE140468D214F8090A13595 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		3366E6290E31485EB819EC3D /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		373EF88281E24D92BB0FE5B2 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		3BACB11BEE454E9CBD3124BA /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		3C00C454AC20417987ED00EC /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3D0DDD10B14942A9A2097D67 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		471716607193444E9E51DC7B /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		49347E3CA1144EF39253411F /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E21169E39240578450221C /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4BC3EF6E496A4FDABBEC35F1 /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5385D55EFDCA44888719836B /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C428F3186A493BBBBFE3C9 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		6461E5635BC1457998E1245F /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF5CC87347D4F4688EBB5EF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		6CD9E9CEF858499B83D9BFA0 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		6E21E218BA274073B17C54EB /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		6FE5C7357A744E67B0645DBD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		70DB85430D094DF0987CD47B /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		7A5D25B2901D48CD9C6F2BAD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		82A45F16D3A8494595874D35 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		83B2F0B750594DFD955A1BFF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		83C2702DB93E4563B815E592 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		86EBDF777C5C4F42AC37343D /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		89C48C7C595942D3B1B7B90E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		8EC73BD3BE374D6A9BCD83E2 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		90F3827A1A6A4681936EB11B /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A391CCB9434E42A07157C3 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		9659ADCAB682447A80416EC4 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		96BB4B5176D741B7B4E15A86 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		973EFFE3E2624A2298D8C369 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		996911626BF94BA9A6656C4E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		9B94E9543E1F4995AD85EBE9 /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55A27274F1E4A57AC3FAD36 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		A9BD83B152124CE8A8E6F4E7 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		ABB87276F14B45F7AF376677 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B246BDFC77444F0094341DBB /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B4D340ECD585422AA97DD4BB /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		B614843F76944560AEF5983E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		B79FAA4807ED42AEA5294A5B /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		B8E72656C4D34559BE54B1E7 /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90B8DE67BF8428AB84881CF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C0225C1C420647CDB51F8CAC /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13B6DDCE0D04A809404101E /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4490CEB13CB466FB38364B5 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CCBD4573D621438EB52AB139 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E358160EBD574866AECD3DCD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		E52AE7A568AB4C7FA48FAC20 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		EC00309E86444667A04CEC34 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		F51D9EE91731495ABEED7D55 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		FB24D77B3B4C49069FC0B9C6 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		FFD35E859CFE474CA1457477 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00959E8CC4104C8EBF0B9020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FEB29F49A34688B544D30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0508809715AF430DB7E66052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0620E79230464584AAD3DC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06ED70CCE16F4C758FD019E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DCD09E242C74C03BF7F01CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A77298014A84BF6B4533DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779780C27C744C60BD2FD68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B816E316E72470E81C05173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0169A0A6BA941BCBE67BA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7901C0D24F48488F121A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023CF0FAC47A4326B79DFA66 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E52AE7A568AB4C7FA48FAC20 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/ioapi.cpp */,
+				6BF5CC87347D4F4688EBB5EF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/ioapi_mem.cpp */,
+				2CE140468D214F8090A13595 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		05CF8105AB9A4CB0BEC27E35 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B614843F76944560AEF5983E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1437D9981F7A433AA753F3CE /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				1625405144734264834F8D08 /* Source Files */,
+				9659ADCAB682447A80416EC4 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		1625405144734264834F8D08 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F51D9EE91731495ABEED7D55 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				471716607193444E9E51DC7B /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3F0B97EDBB42446DA888FB31 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				60DAB39962C64974861D6222 /* Source Files */,
+				ABB87276F14B45F7AF376677 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		45C177151D4E427892A70C31 /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				023CF0FAC47A4326B79DFA66 /* Source Files */,
+				29DE9BF81D744E27B10E9D48 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		4D726724E198417F8E5004BF /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				54780EBF98524594AA1D6734 /* Source Files */,
+				86EBDF777C5C4F42AC37343D /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		53C14AAD189145F9AB3A396A /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				989188321E4848BE9544A912 /* Source Files */,
+				B246BDFC77444F0094341DBB /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		54780EBF98524594AA1D6734 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A5D25B2901D48CD9C6F2BAD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5B9DABD55FE6489288723A2D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E21E218BA274073B17C54EB /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5BF11F58FDB44C14ADF64B6C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				373EF88281E24D92BB0FE5B2 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				70DB85430D094DF0987CD47B /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				91A391CCB9434E42A07157C3 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				E358160EBD574866AECD3DCD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				B79FAA4807ED42AEA5294A5B /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				82A45F16D3A8494595874D35 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				89C48C7C595942D3B1B7B90E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				FFD35E859CFE474CA1457477 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				3D0DDD10B14942A9A2097D67 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				EC00309E86444667A04CEC34 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				53C428F3186A493BBBBFE3C9 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				FB24D77B3B4C49069FC0B9C6 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				A9BD83B152124CE8A8E6F4E7 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				1D77D2DD898641ACAC8EDB17 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				B4D340ECD585422AA97DD4BB /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				8EC73BD3BE374D6A9BCD83E2 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				A55A27274F1E4A57AC3FAD36 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		60DAB39962C64974861D6222 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				973EFFE3E2624A2298D8C369 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		62D2C0137FD0447C9398FD67 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B220FDA4958C41F0B8DCDB15 /* CMake Rules */,
+				B90B8DE67BF8428AB84881CF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		63AB8B9816464CE4A5345329 /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				771EBCB38AFE487EB2BC0D63 /* Source Files */,
+				3C00C454AC20417987ED00EC /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		6C8302D7DC094BD99FEC7B8F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B97EDBB42446DA888FB31 /* external */,
+				E3112BF8A1A94505BEB2A2D2 /* ext_recast */,
+				53C14AAD189145F9AB3A396A /* ext_tinyxml2 */,
+				97B9553748264A8893964791 /* ext_xxhash */,
+				A94E1D2F324B47A3AA4994B9 /* ext_xxtea */,
+				90314334317042D79E8B49DB /* ext_clipper */,
+				4D726724E198417F8E5004BF /* ext_edtaa3func */,
+				1437D9981F7A433AA753F3CE /* ext_convertUTF */,
+				63AB8B9816464CE4A5345329 /* ext_poly2tri */,
+				C56D3510D8E34C1DB3A89587 /* ext_md5 */,
+				45C177151D4E427892A70C31 /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		768E2D76E909483697D71E23 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E01ED6FCC8944B3B7B52AFF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		771EBCB38AFE487EB2BC0D63 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				019CCA70F1C6486F8EAF3139 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/common/shapes.cc */,
+				6FE5C7357A744E67B0645DBD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				996911626BF94BA9A6656C4E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				6CD9E9CEF858499B83D9BFA0 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				83C2702DB93E4563B815E592 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		90314334317042D79E8B49DB /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				5B9DABD55FE6489288723A2D /* Source Files */,
+				83B2F0B750594DFD955A1BFF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		97B9553748264A8893964791 /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				05CF8105AB9A4CB0BEC27E35 /* Source Files */,
+				2C17221DFFE74A02881BEB93 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		989188321E4848BE9544A912 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3366E6290E31485EB819EC3D /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9FD2F767F0744F7F895D3C46 = {
+			isa = PBXGroup;
+			children = (
+				6C8302D7DC094BD99FEC7B8F /* External */,
+				62D2C0137FD0447C9398FD67 /* ALL_BUILD */,
+				F0C813E12F634605BBA66AD2 /* Products */,
+				AD8C760E71F74097A77D3009 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A94E1D2F324B47A3AA4994B9 /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				E76C83C3D0C440A7AEA8BDEC /* Source Files */,
+				49E21169E39240578450221C /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		AD8C760E71F74097A77D3009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B220FDA4958C41F0B8DCDB15 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C56D3510D8E34C1DB3A89587 /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				768E2D76E909483697D71E23 /* Source Files */,
+				CCBD4573D621438EB52AB139 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		E3112BF8A1A94505BEB2A2D2 /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				5BF11F58FDB44C14ADF64B6C /* Source Files */,
+				C4490CEB13CB466FB38364B5 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		E76C83C3D0C440A7AEA8BDEC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BACB11BEE454E9CBD3124BA /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F0C813E12F634605BBA66AD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C13B6DDCE0D04A809404101E /* ext_clipper */,
+				49347E3CA1144EF39253411F /* ext_convertUTF */,
+				B8E72656C4D34559BE54B1E7 /* ext_edtaa3func */,
+				C0225C1C420647CDB51F8CAC /* ext_md5 */,
+				5385D55EFDCA44888719836B /* ext_poly2tri */,
+				96BB4B5176D741B7B4E15A86 /* ext_recast */,
+				0467706FAEFF4203BD63D7D4 /* ext_tinyxml2 */,
+				90F3827A1A6A4681936EB11B /* ext_unzip */,
+				4BC3EF6E496A4FDABBEC35F1 /* ext_xxhash */,
+				6461E5635BC1457998E1245F /* ext_xxtea */,
+				9B94E9543E1F4995AD85EBE9 /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10D0AEF08A9640339C17BEB9 /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79633FCE126B43C6A4BA71B2 /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				99F6B39EA8AC4B4F92577594 /* Sources */,
+				1DCD09E242C74C03BF7F01CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = 96BB4B5176D741B7B4E15A86 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		11E72CBDEAD84023B16ED912 /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EF658AFCE4E4C858E35661F /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				5C81DC00A1234A76A4D3F410 /* Sources */,
+				B0169A0A6BA941BCBE67BA0E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = 49347E3CA1144EF39253411F /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4E09A2533D734BA3A6B97733 /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A3E630CECB49948A5982A9 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				7C924392858046B1AEF7B705 /* Sources */,
+				DF7901C0D24F48488F121A21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = B8E72656C4D34559BE54B1E7 /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5DD1B76F52FC4145A6B53B19 /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BCD5A502B342C4AC5E7130 /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				6271FDBD59F84D568F807693 /* Sources */,
+				779780C27C744C60BD2FD68A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C613182F263424B9C5F5F67 /* PBXTargetDependency */,
+				E41AA083DA434A9FAA6F2476 /* PBXTargetDependency */,
+				C364017B60FB448EB38B1500 /* PBXTargetDependency */,
+				CA74A88F6DC94FD08FAC62AB /* PBXTargetDependency */,
+				2E28D2BE0F6B483BB9B9007A /* PBXTargetDependency */,
+				A8E4D2EA7D254484B6462CA1 /* PBXTargetDependency */,
+				466A9AD610D9485DB0BBD839 /* PBXTargetDependency */,
+				609010C8FF7D4BA1BD26FFBC /* PBXTargetDependency */,
+				F2EB1FD983674E7896A7793B /* PBXTargetDependency */,
+				EC806F43C56949239E2A5F6F /* PBXTargetDependency */,
+				37FDDFF2A8F84BF7A90D7F6C /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = 9B94E9543E1F4995AD85EBE9 /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7BB303F8E2424402A6D91D82 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D448E526A31548F1B330CA28 /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				ED861BF59DAB4B7280C2031A /* Sources */,
+				06ED70CCE16F4C758FD019E9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = 4BC3EF6E496A4FDABBEC35F1 /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7E772D86FA6C40D28E543615 /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56261AA62F4549B388E9A82A /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				4AA1E139AA4545D0B7BCB328 /* Sources */,
+				6A77298014A84BF6B4533DA6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = 90F3827A1A6A4681936EB11B /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9161C7546F4E46CEBCAA0C20 /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F502BD7721439CAE74E31D /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				9B77C5E6D1AC4183A15F6F8F /* Sources */,
+				00959E8CC4104C8EBF0B9020 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = 0467706FAEFF4203BD63D7D4 /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB2F92FF135549DAB511ED51 /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71DEE1ED8B240788D225CBA /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				520101A88A9B485AACA291F0 /* Sources */,
+				01FEB29F49A34688B544D30F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = 5385D55EFDCA44888719836B /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C36AAC8E28744A8C9F21C933 /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C85D6A190EE4A9C80BBAFF7 /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				F11D44501E6E4B90B2E28FF1 /* Sources */,
+				0508809715AF430DB7E66052 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = 6461E5635BC1457998E1245F /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D109C4B322DA492AB5927FA0 /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A27BF2F09F94E0991402B5B /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				5FA8B30EA2474648B7F53446 /* Sources */,
+				9B816E316E72470E81C05173 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = C13B6DDCE0D04A809404101E /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E75A76C718114FE383356134 /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0E7C57243A49AF937F5233 /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				45C425EBC0644FB9A475E819 /* Sources */,
+				0620E79230464584AAD3DC7E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = C0225C1C420647CDB51F8CAC /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2694B4DE15AE4EE4B2E3AF6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1310;
+			};
+			buildConfigurationList = 2B1E089CEC9E4B2288152C57 /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				13519D6180FD4610BFB1E965 /* Debug */,
+				DED328228584493C99C5ABD5 /* Release */,
+				6BFAB392A8404F2B8B53AA55 /* MinSizeRel */,
+				014C281889214C349F1295F1 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9FD2F767F0744F7F895D3C46;
+			projectDirPath = ../../../../cocos2d/external;
+			projectRoot = "";
+			targets = (
+				36092F6CAD474706BC18135D /* ALL_BUILD */,
+				E9B0860802314C76880D284A /* ZERO_CHECK */,
+				D109C4B322DA492AB5927FA0 /* ext_clipper */,
+				11E72CBDEAD84023B16ED912 /* ext_convertUTF */,
+				4E09A2533D734BA3A6B97733 /* ext_edtaa3func */,
+				E75A76C718114FE383356134 /* ext_md5 */,
+				AB2F92FF135549DAB511ED51 /* ext_poly2tri */,
+				10D0AEF08A9640339C17BEB9 /* ext_recast */,
+				9161C7546F4E46CEBCAA0C20 /* ext_tinyxml2 */,
+				7E772D86FA6C40D28E543615 /* ext_unzip */,
+				7BB303F8E2424402A6D91D82 /* ext_xxhash */,
+				C36AAC8E28744A8C9F21C933 /* ext_xxtea */,
+				5DD1B76F52FC4145A6B53B19 /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		997399B3C99D027822A741F9 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external
+  make -f /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external
+  make -f /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external
+  make -f /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external
+  make -f /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D98B4BC285FB70481A2E64EB /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C425EBC0644FB9A475E819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301C918F71864578B4F46FD6 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA1E139AA4545D0B7BCB328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F45D7CC795F48A5A873A442 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/ioapi.cpp */,
+				F210A72DB815469ABD98F26E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/ioapi_mem.cpp */,
+				85816D7D0792443ABA5FA178 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520101A88A9B485AACA291F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8E400F6E7D4FB0884A2E78 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/common/shapes.cc */,
+				0C6E96DCA72044D8A504CC0B /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				A550C3A606724DA6B1E238FD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				52954E7C6F63428098F6BE62 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				39C8C303EFFB48D98CD57853 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C81DC00A1234A76A4D3F410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A4B5BD21944F0F8C1B8872 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				A4534DB2A5E14EA3B76E700E /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA8B30EA2474648B7F53446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04AFEBD99874091BD18ED90 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6271FDBD59F84D568F807693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078826592E3A45C6B41DAB10 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C924392858046B1AEF7B705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89391931FC974251BAC58BAD /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F6B39EA8AC4B4F92577594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC5791055304D03A5A25392 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				2F68167BEB384C3BBA8166CF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				0301645771DB427DB9446C66 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				F04B0EFEF9E9443083280073 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				DDD718DB327C4105807F396A /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				7E0D98AB170647E98BF0D71D /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				CEF3C573DBC84209924B2C96 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				D1BBDC5AB1614100835A91BF /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				506863F6BD1043759AB13287 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				5CDB69147B15466BBE781734 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				9D07CFF751F04211B89D5E65 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				1F8957FB53E64E6881EB81E7 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				AA938E5A660D48B087BFF910 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				D5D9486A36F64EA5A7AA6017 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				0DDA276D78774575BDFBE64D /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				491A643DC3EE4A609A9B7610 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				07DA287E46AD4E639EF91857 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B77C5E6D1AC4183A15F6F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84D9074B484FCCA0958CA1 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED861BF59DAB4B7280C2031A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AE3D00520A46DAB768AFE1 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11D44501E6E4B90B2E28FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8113DBD98DED43D8B646F722 /* /Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CACAA2574C7438A8D9965BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DD1B76F52FC4145A6B53B19 /* external */;
+			targetProxy = EFCEE9EAFBE04062846A053D /* PBXContainerItemProxy */;
+		};
+		2E28D2BE0F6B483BB9B9007A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36AAC8E28744A8C9F21C933 /* ext_xxtea */;
+			targetProxy = 059EA1F86E394CB4B216C57F /* PBXContainerItemProxy */;
+		};
+		37FDDFF2A8F84BF7A90D7F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E772D86FA6C40D28E543615 /* ext_unzip */;
+			targetProxy = 44E4A1450EF6472D89307F4F /* PBXContainerItemProxy */;
+		};
+		40933A5DA4E24540B41547DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E772D86FA6C40D28E543615 /* ext_unzip */;
+			targetProxy = C2FFBC4435514CEC910BEDF4 /* PBXContainerItemProxy */;
+		};
+		466A9AD610D9485DB0BBD839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E09A2533D734BA3A6B97733 /* ext_edtaa3func */;
+			targetProxy = E10B21D9E45B472A8A4203C2 /* PBXContainerItemProxy */;
+		};
+		48900EFFE094441798CA6A90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36AAC8E28744A8C9F21C933 /* ext_xxtea */;
+			targetProxy = FB8F81D2773D460B9DDBD3D2 /* PBXContainerItemProxy */;
+		};
+		4B65FC3E5F8749D380D3F656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E75A76C718114FE383356134 /* ext_md5 */;
+			targetProxy = 8CFCFFCB8F4A4F90AD1510B2 /* PBXContainerItemProxy */;
+		};
+		5C613182F263424B9C5F5F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B0860802314C76880D284A /* ZERO_CHECK */;
+			targetProxy = 75796932FF35491EADFCB505 /* PBXContainerItemProxy */;
+		};
+		5D0B02F1E80F4E5F8DC357CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB303F8E2424402A6D91D82 /* ext_xxhash */;
+			targetProxy = 7936A48CE25743D98BB54F5A /* PBXContainerItemProxy */;
+		};
+		609010C8FF7D4BA1BD26FFBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11E72CBDEAD84023B16ED912 /* ext_convertUTF */;
+			targetProxy = 64533A86AFE7492C98FCB78B /* PBXContainerItemProxy */;
+		};
+		6AC3E4A9ADA94D2F95A95E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B0860802314C76880D284A /* ZERO_CHECK */;
+			targetProxy = D9309F84F6DE42468E7412AD /* PBXContainerItemProxy */;
+		};
+		7267BB31ADCD4C2E8AA9F6C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E09A2533D734BA3A6B97733 /* ext_edtaa3func */;
+			targetProxy = D8765F8CFC27413781133081 /* PBXContainerItemProxy */;
+		};
+		795E18E328234F618E9EEBCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10D0AEF08A9640339C17BEB9 /* ext_recast */;
+			targetProxy = 5A10780C786F4148A34D304B /* PBXContainerItemProxy */;
+		};
+		A8E4D2EA7D254484B6462CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D109C4B322DA492AB5927FA0 /* ext_clipper */;
+			targetProxy = 67A86DFAE1CA440DA5FED406 /* PBXContainerItemProxy */;
+		};
+		AE2D2F8722D640EF977BE216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9161C7546F4E46CEBCAA0C20 /* ext_tinyxml2 */;
+			targetProxy = 361F3B36FDD44F19BF9DF282 /* PBXContainerItemProxy */;
+		};
+		B5D98A1F891A40408E989943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11E72CBDEAD84023B16ED912 /* ext_convertUTF */;
+			targetProxy = B106349903B94022894041E3 /* PBXContainerItemProxy */;
+		};
+		C364017B60FB448EB38B1500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9161C7546F4E46CEBCAA0C20 /* ext_tinyxml2 */;
+			targetProxy = 24EF9AAB5AD6447297AEAD2F /* PBXContainerItemProxy */;
+		};
+		CA74A88F6DC94FD08FAC62AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB303F8E2424402A6D91D82 /* ext_xxhash */;
+			targetProxy = 2018FDEFE488486B9F862F2F /* PBXContainerItemProxy */;
+		};
+		D95A0223FDAD4A66B27E632C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2F92FF135549DAB511ED51 /* ext_poly2tri */;
+			targetProxy = FBA14BA67B3C4E78A875D10C /* PBXContainerItemProxy */;
+		};
+		E41AA083DA434A9FAA6F2476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10D0AEF08A9640339C17BEB9 /* ext_recast */;
+			targetProxy = DD916512EF2F4DEFA97777D6 /* PBXContainerItemProxy */;
+		};
+		EC806F43C56949239E2A5F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E75A76C718114FE383356134 /* ext_md5 */;
+			targetProxy = 4B7060045DF6401C935346DC /* PBXContainerItemProxy */;
+		};
+		F2EB1FD983674E7896A7793B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2F92FF135549DAB511ED51 /* ext_poly2tri */;
+			targetProxy = BD7FB83EEEA2471D8DD38DDB /* PBXContainerItemProxy */;
+		};
+		FE8F2FAAF1CB4FB6A2CCDB24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D109C4B322DA492AB5927FA0 /* ext_clipper */;
+			targetProxy = B5B5C452F1F9422181E53380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		057AA311F66247FA85941F85 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		06313E7AD08D4329B70C2951 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0B70731FE68448B59D054C4E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0CB9158C7AB0457C870A16C3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/Box2D/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/chipmunk/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/freetype2/include/mac/freetype2,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/bullet/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/bullet/include/bullet,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/jpeg/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/openssl/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/uv/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/webp/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/websockets/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/curl/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/png/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/glfw3/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/zlib/include,"/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		100E14485D2E41A1BBFCA4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		13BF4107FF934FA898C9511C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		18D0384E762A48ED99BD0F51 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1D1E563D269749CDB8B21612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		26F417DBCA6344BCAA0106F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/build;
+			};
+			name = Debug;
+		};
+		29C4F6AC4B1B4854BABD40E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/Box2D/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/chipmunk/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/freetype2/include/mac/freetype2,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/bullet/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/bullet/include/bullet,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/jpeg/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/openssl/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/uv/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/webp/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/websockets/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/curl/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/png/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/glfw3/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/zlib/include,"/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3A3D558F86DB405191A9FBD5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/build;
+			};
+			name = RelWithDebInfo;
+		};
+		3B728C8EF6D64F8497A5184E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		461E82D874214A768455FEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4878A7F9636145D7B3AC3ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4969CAB061D84682AD42DE3A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4A482623E2D24CC99CE87072 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4D82CDD9C6F6452597551734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4DF2B39DA8AD413B9F2DD2AC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		542D68FBD12F467BA579AC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/Box2D/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/chipmunk/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/freetype2/include/mac/freetype2,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/bullet/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/bullet/include/bullet,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/jpeg/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/openssl/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/uv/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/webp/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/websockets/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/curl/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/png/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/glfw3/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/zlib/include,"/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		57B91FDBC80C44C5AF786E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		60380FD1A2064761AFF9EDAB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		65E2374B45EC4C7EA2EBA817 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		672680EE467C436FB4F2ECE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6CBF0F44FC054E71B7A5BA5B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6DBA2D6E43AA4EF0987995CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6E89FAA37C4E4FC99E3F9381 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		72F3FAD173BE4FBA8B09B2F8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		736B634B3F884852AB81904B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/build;
+			};
+			name = MinSizeRel;
+		};
+		77C0C036D137474CA98C05B2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		796B7F9A32554712BBE636A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7B4FECAA094341E698061F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7CC08E432FFD454EBA6AD46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8E2DD0ECB26749DDBBBF29B6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		95B1EEE3E616434B853F1C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		95B712C5FF0F463DBED934AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/build;
+			};
+			name = Release;
+		};
+		97CA4C14BE9C4E7BBD309481 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9827A505729A40AABBC81C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9B265DCABE014CB6B16A5384 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/tinyxml2/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxtea/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/ConvertUTF/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/..,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/Box2D/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/chipmunk/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/freetype2/include/mac/freetype2,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/bullet/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/bullet/include/bullet,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/jpeg/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/openssl/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/uv/include,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/webp/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/websockets/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/curl/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/png/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/glfw3/include/mac,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/zlib/include,"/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9E39D9DD6FC84555BF21B5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A7C3E67F3FFE426F8E9CE6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A960A067F918471AAD200CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AC47FE537079452B8FE17F2E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AF79F4A98CE44C7991DB37E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B10EE5FAA4F745D6891D9C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B547E10BACDE416BA7E0CA52 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/unzip/.,/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B6921A415FB74F4D9023A8BC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B7DB4EE9BA1C405F9AF0118D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BE40A2E1B67E4A2E80CE820C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BFBB09584BC94A95BF34BE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D10890BD188F4F93A61893B1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D6BB2BD10DAF42B4ADD1F85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D92FA9B9CEEF4C7288C07C48 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E58A1BE1110440BFA7B566A7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E9C8F4049D3C4FBA96BBF283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F5E6F6802F334DF7A18515F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FD9AC99F97B2440FBC632E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Test_1/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Test_1/proj.ios_mac/mac/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06A8FA73EDFE4F2FB28A1E9B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E39D9DD6FC84555BF21B5EE /* Debug */,
+				BFBB09584BC94A95BF34BE61 /* Release */,
+				BE40A2E1B67E4A2E80CE820C /* MinSizeRel */,
+				6E89FAA37C4E4FC99E3F9381 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2A27BF2F09F94E0991402B5B /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B91FDBC80C44C5AF786E4A /* Debug */,
+				AF79F4A98CE44C7991DB37E5 /* Release */,
+				06313E7AD08D4329B70C2951 /* MinSizeRel */,
+				057AA311F66247FA85941F85 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2B1E089CEC9E4B2288152C57 /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F417DBCA6344BCAA0106F2 /* Debug */,
+				95B712C5FF0F463DBED934AA /* Release */,
+				736B634B3F884852AB81904B /* MinSizeRel */,
+				3A3D558F86DB405191A9FBD5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		41BCD5A502B342C4AC5E7130 /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C4F6AC4B1B4854BABD40E2 /* Debug */,
+				542D68FBD12F467BA579AC2F /* Release */,
+				0CB9158C7AB0457C870A16C3 /* MinSizeRel */,
+				9B265DCABE014CB6B16A5384 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4C85D6A190EE4A9C80BBAFF7 /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461E82D874214A768455FEB2 /* Debug */,
+				4D82CDD9C6F6452597551734 /* Release */,
+				8E2DD0ECB26749DDBBBF29B6 /* MinSizeRel */,
+				6CBF0F44FC054E71B7A5BA5B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		56261AA62F4549B388E9A82A /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4FECAA094341E698061F27 /* Debug */,
+				A960A067F918471AAD200CF5 /* Release */,
+				4969CAB061D84682AD42DE3A /* MinSizeRel */,
+				B547E10BACDE416BA7E0CA52 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		57F502BD7721439CAE74E31D /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672680EE467C436FB4F2ECE0 /* Debug */,
+				7CC08E432FFD454EBA6AD46A /* Release */,
+				65E2374B45EC4C7EA2EBA817 /* MinSizeRel */,
+				0B70731FE68448B59D054C4E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		767A888370A44CE6AF475C92 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C3E67F3FFE426F8E9CE6F3 /* Debug */,
+				F5E6F6802F334DF7A18515F3 /* Release */,
+				D92FA9B9CEEF4C7288C07C48 /* MinSizeRel */,
+				60380FD1A2064761AFF9EDAB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		79633FCE126B43C6A4BA71B2 /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B7F9A32554712BBE636A8 /* Debug */,
+				1D1E563D269749CDB8B21612 /* Release */,
+				13BF4107FF934FA898C9511C /* MinSizeRel */,
+				D10890BD188F4F93A61893B1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9EF658AFCE4E4C858E35661F /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9827A505729A40AABBC81C11 /* Debug */,
+				6DBA2D6E43AA4EF0987995CC /* Release */,
+				77C0C036D137474CA98C05B2 /* MinSizeRel */,
+				18D0384E762A48ED99BD0F51 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B71DEE1ED8B240788D225CBA /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B728C8EF6D64F8497A5184E /* Debug */,
+				4878A7F9636145D7B3AC3ABA /* Release */,
+				E58A1BE1110440BFA7B566A7 /* MinSizeRel */,
+				B6921A415FB74F4D9023A8BC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB0E7C57243A49AF937F5233 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10EE5FAA4F745D6891D9C1E /* Debug */,
+				FD9AC99F97B2440FBC632E92 /* Release */,
+				4A482623E2D24CC99CE87072 /* MinSizeRel */,
+				B7DB4EE9BA1C405F9AF0118D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D448E526A31548F1B330CA28 /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6BB2BD10DAF42B4ADD1F85C /* Debug */,
+				95B1EEE3E616434B853F1C65 /* Release */,
+				97CA4C14BE9C4E7BBD309481 /* MinSizeRel */,
+				4DF2B39DA8AD413B9F2DD2AC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9A3E630CECB49948A5982A9 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100E14485D2E41A1BBFCA4FD /* Debug */,
+				E9C8F4049D3C4FBA96BBF283 /* Release */,
+				AC47FE537079452B8FE17F2E /* MinSizeRel */,
+				72F3FAD173BE4FBA8B09B2F8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2694B4DE15AE4EE4B2E3AF6C /* Project object */;
+}

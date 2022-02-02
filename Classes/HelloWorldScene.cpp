@@ -126,40 +126,41 @@ bool HelloWorld::init()
     }
     
     /* Создание спрайтов */
-    
+ 
     Sprite *myBlocks[WIDTH * HEIGHT];
-    
-    for (int q = 0; q < 1; q++) {
-        int count = 0, teg_init = 1;
+ 
+    int count = 0, teg_init = 1;
         
-        for (int j = 1; j < HEIGHT + 1; j++) {
+    for (int j = 1; j < HEIGHT + 1; j++) {
             
-            int local_y = origin.y + (visibleSize.height - PIXIL_SIZE_BLOCK * SCALE_BLOCK * (HEIGHT + 1)) / 2  + PIXIL_SIZE_BLOCK * SCALE_BLOCK * j;
+        int local_y = origin.y + (visibleSize.height - PIXIL_SIZE_BLOCK * SCALE_BLOCK *
+                                  (HEIGHT + 1)) / 2  + PIXIL_SIZE_BLOCK * SCALE_BLOCK * j;
             
-            for (int i = 1; i < WIDTH + 1; i++) {
+        for (int i = 1; i < WIDTH + 1; i++) {
                 
-                int local_x = origin.x + (visibleSize.width - PIXIL_SIZE_BLOCK * SCALE_BLOCK * (WIDTH + 1)) / 2 + PIXIL_SIZE_BLOCK * SCALE_BLOCK * i;
+            int local_x = origin.x + (visibleSize.width - PIXIL_SIZE_BLOCK * SCALE_BLOCK *
+                                      (WIDTH + 1)) / 2 + PIXIL_SIZE_BLOCK * SCALE_BLOCK * i;
                 
-                myBlocks[count] = Sprite::create("pixil.png");
-                myBlocks[count]->setPosition(Vec2(local_x, local_y));
+            myBlocks[count] = Sprite::create("pixil.png");
+            myBlocks[count]->setPosition(Vec2(local_x, local_y));
                 
-                int colorVar = Get_Random_Number(1, 3);
+            int colorVar = Get_Random_Number(1, 3);
                 
-                if (colorVar == 1) {
-                    myBlocks[count]->setColor(Color3B(255, 0, 0)); // r
-                } else if (colorVar == 2) {
-                    myBlocks[count]->setColor(Color3B(0, 255, 0)); // g
-                } else if (colorVar == 3) {
-                    myBlocks[count]->setColor(Color3B(0, 0, 255)); // b
-                }
-                
-                myBlocks[count]->setScale(SCALE_BLOCK);
-                myBlocks[count]->setTag(teg_init);
-                this->addChild(myBlocks[count]);
-                count++;
-                teg_init++;
+            if (colorVar == 1) {
+                myBlocks[count]->setColor(Color3B(255, 0, 0)); // r
+            } else if (colorVar == 2) {
+                myBlocks[count]->setColor(Color3B(0, 255, 0)); // g
+            } else if (colorVar == 3) {
+                myBlocks[count]->setColor(Color3B(0, 0, 255)); // b
             }
+                
+            myBlocks[count]->setScale(SCALE_BLOCK);
+            myBlocks[count]->setTag(teg_init);
+            this->addChild(myBlocks[count]);
+            count++;
+            teg_init++;
         }
+        
     }
      
     
